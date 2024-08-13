@@ -1,0 +1,17 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "Data-testid Lister",
+  "version": "1.0",
+  "description": "Lists all elements with data-testid attribute and its value",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
